@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*{
+    
+    font-family: Arial, Helvetica, sans-serif; 
+}
+p {
+    text-align: justify;
+}
+body {
+    background-image: linear-gradient(to top, #B2BEBF, #889C9B, #486966);
+}
+main{
+    background-color: white;
+    width: 1200px; /* Tamanho do xundo branco */
+    padding: 30px; /* tamanho da borda lateral */
+    margin: auto; /* Centralizar e deixar automaticamente no centro */
+    border-radius: 10px; /* arredondar cantos */
+    box-shadow: 6px 6px 10px #3B3936;
+}
+h1{
+color: #BD2A2E;
+}
+h2{
+    color: #3B3936;
+   
+}

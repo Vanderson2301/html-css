@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <title>Trabalhando com fontes no CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            font-size: 16px;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+                                        Não é muito bom trabalhar com as absolutas
+                                        Recomendado usar somente o "px" e "em"
+                                        Geralmente 16px é = 1em, ou seja 2em = 32px
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            */
+            font-weight: lighter;
+            font-style: italic;
+            text-decoration: underline;
+        }
+        h1{
+            
+            /* Shorthand font
+            font-size: 3em;
+            font-weight: bolder;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+
+            Ordem: font-style; font-weight; font-size; font-family */
+
+            font: italic bolder 3em 'Time New Roman', serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bora testar umas fontes tops</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus delectus libero inventore debitis incidunt deserunt quos obcaecati quae tenetur numquam, dignissimos alias, quo nam? Alias esse molestiae quasi exercitationem itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sequi voluptate reprehenderit quam, distinctio tempore repellat officia voluptatibus in amet quisquam! Eligendi fuga cupiditate, rerum nisi possimus aperiam dolor est? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nisi similique fugiat doloremque recusandae cupiditate nesciunt, soluta esse sit sint autem omnis dolor quaerat magnam libero porro magni voluptate!</p>
+    <h2>Subtitulo Karai</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, unde quis rem repudiandae sit vitae repellendus maiores et laborum cumque eligendi! Porro aliquam rem tempore necessitatibus labore deserunt, pariatur placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minus dolorum ducimus obcaecati voluptatem consequatur nemo numquam? Aspernatur id architecto facere? Tempore minima facere non corporis quibusdam harum voluptatibus modi!</p>
+</body>
+</html>
