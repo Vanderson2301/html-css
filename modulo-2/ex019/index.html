@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Santana';
+            src: url('Santana.otf') format('opentype'), url('Santana.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format()
+                -opentype (otf)
+                -trueType (ttf)
+                -embedded-opentype
+                -truetype-aat (Apple Advanced Typography)
+                -svg            
+            */
+        }
+        body{
+            background-image:linear-gradient(to right, #662400, #006663);
+            text-align: justify;
+        }
+        main{
+            background-color: beige;  
+            width: 1200px;
+            padding: 10px;
+            box-shadow: 4px 4px 10px black;
+            margin: auto;
+            border-radius: 10px;
+        }
+        h1{
+            font-family: 'Santana', Times, serif;
+            color: #c26330e0
+        }
+        h2{
+            color: #00B3AD
+        }
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Texto 1 </h1>
+        <h2>Será  que vai da certo?</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At tenetur ex, impedit debitis ullam perspiciatis quibusdam blanditiis nam praesentium, consequuntur quidem repudiandae molestias eligendi expedita maiores nisi sit laborum laboriosam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos atque quo, voluptate beatae alias reiciendis voluptas libero excepturi nisi et magnam at, dolorem pariatur. Placeat adipisci in fugit itaque delectus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam doloribus praesentium cum ex possimus perferendis. Nulla aperiam quae accusamus deleniti numquam harum maiores voluptate illum. Deserunt aspernatur eum necessitatibus consectetur?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo iure ipsa temporibus, nesciunt pariatur quos expedita! Molestiae deserunt facere debitis dicta, iste nesciunt eveniet, nam consequuntur quaerat officia animi dolores.</p>
+    </main>
+</body>
+</html>

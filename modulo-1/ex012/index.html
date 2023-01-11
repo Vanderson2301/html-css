@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <title>Trabalhando com Videos em HTML</title>
+</head>
+<body>
+    <h1>Vai ter uns videos top aqui viu</h1>
+    <!-- usa o source:src por que da pra usar varios videos no mesmo codigo, se der errado, ele vai abrir o proximo até da certo.-->
+    <!-- Mas como são videos internos, o consumo de banda vai ser muito alto, então não é tão bom usar a tag video-->
+    <video width=" 700" controls>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4"> 
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <p>Seu navegador não é compativel com xormatos de video.</p>
+    </video>
+    <h1>Botando Videos do youtube</h1>
+    <!-- Basicamente é ir no youtube, apertar em compartilhar e em incorporar, é muito bom porq ue não consome banda do cliente e também aumenta a taxa de procura no algoritimo do google-->
+    <iframe width="700" height="315" src="https://www.youtube.com/embed/5iARXEBSljY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
