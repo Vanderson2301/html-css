@@ -1,13 +1,33 @@
 @charset "UTF-8";
 
-body{
-    background-image: url(imagens/background001.jpg);
-    background-size: 100% 190%;
-    height: 50vh;
-    width: auto;
-    background-repeat: no-repeat;
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
+
+*{
+    margin: 0px;
+    padding: 0px;
 }
-body{
-    background-image: url(imagens/background002.jpg);
+
+:root {
+    --fonte1: Verdana, Tahoma, sans-serif;
+    --fonte2: 'Passion One', 'cursive';
+    --fonte3: 'Sriracha', 'cursive';
+    
+}
+header{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1{
+   font-family: var(--fonte2);
+    font-size: 6em;
+    padding: 100px 0px 10px 0px;
+}
+header p {
+    font-family: var(--fonte1);
+    font-style: normal;
+    font-size: 1em;
+    padding-bottom: 50px;
 }
