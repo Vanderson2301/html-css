@@ -11,19 +11,16 @@
             border-collapse: collapse;
         }
         
-        tr.linha{
-            background-color: darkgray;
-        }
         
         td{
             border: 1px solid black;
-            width: 300px;
+            width: 150px;
+            height: 150px;
             padding: 8px;
+            text-align: center; /* Alinhamento Horizontal */
+            vertical-align: top; /* Alinhamento Vertical */
         }
 
-        td.dado{
-            background-color: yellow;
-        }
     </style>
 </head>
 <body>
@@ -31,9 +28,9 @@
     <!--
         HIERARQUIA DE TABELAS (Simples)
         TABLE = Tabela
-            TABLE ROW = Linha de tabela (tr) 
-                TABLE HEADER = Cabeçalho de tabela
-                TABLE DATA = Dado de tabela
+            TABLE ROW (tr) = Linha de tabela  
+                TABLE HEADER (th) = Cabeçalho de tabela
+                TABLE DATA (td) = Dado de tabela
             
             No consorcio W3C -diz que não é obrigatório fechar os "tr" e nem o "td"
     -->
