@@ -10,12 +10,17 @@
             font-size: 1.5em;
             border-collapse: collapse; /* Junta as linhas da table*/
             font-family: Arial, Helvetica, sans-serif;
+            position: relative;
         }
         thead, tfoot{
             background-color: grey;
             color: white;
         }
-
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(109, 109, 109);
+        }
         td, th{
             border: 1px solid black;
             width: 300px;
@@ -26,6 +31,9 @@
         }
         td.num{
             text-align: right;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgrey;
         }
     </style>
 </head>
