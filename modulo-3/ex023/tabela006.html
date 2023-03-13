@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas responsivas</title>
+    <style>
+    caption{
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 10px;
+        }
+        td, th{
+            border: 1px solid black;
+            width: 160px;
+            height: 60px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        tr:nth-child(2n){
+            background-color: lightgrey;
+        }
+        div#container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, et sunt dolore eius dolor numquam fuga aliquid mollitia laborum suscipit eaque culpa neque optio harum accusantium distinctio voluptatibus beatae debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur a exercitationem, ad dolor harum tenetur similique reprehenderit aliquam illum, laborum impedit non quis ipsam eaque esse nostrum blanditiis unde. Nulla?</p>
+    
+    <div id="container">
+        <table>
+            <thead>
+                <tr>
+                    <caption>
+                        Tabelas Responsivas
+                    </caption>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Agos</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</body>
+</html>
